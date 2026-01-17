@@ -4,8 +4,31 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+   <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
 </head>
 <body>
-    
+    <header>
+        <nav class="flex justify-around items-center w-[75%] max-w-[1170px] my-5 mx-auto">
+            <img src="./images/logo2.png" alt="">
+            <ul class="flex justify-between items-center gap-x-8 text-[1rem] text-[#333333]">
+                <li>Home</li>
+                <li>Services ></li>
+                <li>Cases ></li>
+                <li>Blog ></li>
+                <li>Contact Us ></li>
+            </ul>
+            <button class="bg-[#B68C5A] text-[#FFFFFF] border-none rounded-lg w-[220px] h-16 text-lg font-semibold">Free Consultation</button>
+        </nav>
+        <section class=" flex items-center justify-center banner  bg-[url('./images/banner.png')] bg-cover w-[75%] max-w-[1170px] h-[550px] mx-auto">
+            <div class="banner-content h-[342px] w-[45%] text-center ">
+                <h2 class=" text-7xl font-semibold text-[#FFFFFF] ">We Provide Effective Legal Solutions</h2>
+                <p class="text-base text-[#E7E7E7]">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.</p>
+                <div class="flex gap-8">
+                    <input class=" border border-red-500" type="text" placeholder="Search your services">
+                    <input  class=" border border-red-500" type="submit" value="Search">
+                </div>
+            </div>
+        </section>
+    </header>
 </body>
 </html>
